@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+p{
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.clearfix{
+    overflow: auto;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;    
+}
+.top-bar{
+    width: 100%;
+    background-color: maroon;
+}
+.top-bar-links{
+    float: left;
+}
+.site-search{
+    padding: 3px 5px 3px 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 15px;
+    float: right;
+}
+.site-search input{
+    border: none;
+    float: left;
+}
+.site-search button{
+    float: right;
+    width: 18px;
+    height: 18px;
+    border: none;
+    background: url(./img/icons/search.png);
+}
+.top-bar-links ul{
+    margin: 15px;
+    list-style: none;
+}
+.top-bar-links ul li{
+    padding: 0 10px;
+    display: inline-block;
+    border-right: 1px solid white;
+}
+.top-bar-links ul li:last-child{
+    border: none;
+}
+.top-bar-links ul li a{
+    color: white;
+}
+/* ---------------------------- header ---------------------- */
+header .logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+   
+}
+header .logo h1{
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-variant: small-caps;
+}
+
+header .socialmedia{
+    margin-top: 40px;
+    margin-right: 10px;
+    float: right;
+}
+
+header .socialmedia ul{
+    list-style: none;
+}
+header .socialmedia ul li{
+    
+    margin-left: 10px;
+    display: inline;
+}
+header .socialmedia ul li a{
+    width:25px;
+    background-color: #444;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+header .socialmedia ul li a:hover{
+    background-color: orange;
+}
+nav{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #000;
+    background: linear-gradient(#333,#444,#333);
+    border-radius: 5px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    margin: 10px 50px 10px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+div.intro{
+    width: 97%;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+div.intro div.intro-image{
+    width: 40%;
+    float: left;
+}
+div.intro div.intro-text{
+    margin-top: 100px;
+    width: 57%;
+    float: right;
+}
+div.intro-text h1{
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+div.intro-text p{
+    font-size: 18px;
+}
+div.intro-text a{
+    color: red;
+    float: right;
+}
+div.home-content{
+    width: 100%;
+    background-color: rgb(218, 216, 216);
+}
+div.home-col{
+    margin-left: 15px;
+    width: 339.33px;
+    float: left;
+}
+div.home-col img{
+    width: 339.33px;
+}
+
+div.home-col h2{
+    
+    margin: 30px 0px 30px 0px;
+}
+div.home-col a{
+    
+    float: right;
+    padding-bottom: 0;
+}
+div.services img{
+    width: 64px;
+    float: left;
+    margin-right: 15px;
+}
+div.services{
+    margin-bottom: 25px;
+}
+div.services p{
+    margin-top: 0.5px;
+}
+div.servicess h3{
+    padding-left: 10px;
+}
+div.quote h3{
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+div.quote span{
+    float: left;
+    font-size: 60px;
+}
+div.quote{
+    float: left;
+}
+div.quote p{
+    clear: both;
+}
